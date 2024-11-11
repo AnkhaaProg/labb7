@@ -1,0 +1,696 @@
+body{
+    background-color: #e4e4e4;
+}
+*{
+    padding:0;
+    margin:0;
+
+}
+
+
+.nav{
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap:0px 0px;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+color:hsl(0, 3%, 70%);
+}
+.applelogo{
+    height: 20px;
+    width:20px;
+    display: flex;
+    align-items:start;
+   
+    padding-top: 20px;
+    
+}
+.searchlogo{
+    height: 20px;
+    width:20px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.storelogo{
+    height: 20px;
+    width:20px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.container1{
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.zurag1{
+    width: 70%;
+    height: 73%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 0%;
+    background-image: url(https://www.jumpplus.com/web/image/2853898-b6c07f13/hero_glow_large.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6rem;
+color: white;
+
+}
+.tovch1{
+    margin-top: 2%;
+    margin-left:39%;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    background-color:#2856fd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:#2856fd;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.tovch2{
+    margin-top: 2%;
+    margin-left:51%;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color:#2856fd;
+   color:#2856fd;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+h5{
+    font-size: 1rem;
+}
+
+.container2{
+    padding-top:1.5%;
+    margin-top:1.5%;
+    width: 100%;
+    height: 85vh;
+    background: rgb(34,94,219);
+background: linear-gradient(0deg, rgba(34,94,219,1) 29%, rgba(0,0,0,0.7540266106442577) 100%);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: start;
+
+    
+}
+
+.zurag2{
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0%;
+    background-image: url(https://www.apple.com/in/iphone-16/images/overview/welcome/hero_alt__ey5khbzf04eq_xlarge.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+    
+
+}
+
+.tovch3{
+    margin-top: 6%;
+    margin-left:39%;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 15px;
+    border-style: solid;
+    border-color:hsl(0, 0%, 0%);
+    color: #000000;
+    text-align: center;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.tovch4{
+    margin-top: 6%;
+    margin-left:51%;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color:hsl(0, 0%, 0%);
+   color:hsl(0, 0%, 0%);
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.container3{
+    
+    padding-top:0vh;
+    margin-top:0vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    
+    
+}
+
+.item1{margin: 1%;
+    padding: 1%;
+    height: 90vh;
+width: 46%;
+display: flex;
+align-items: center;
+flex-flow: column;
+justify-content: center;
+background-image: url("https://ashgabatmarket.com/wp-content/uploads/2024/09/AirPods-4-10.webp");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+.item2{margin: 1%;
+    padding: 1%;
+    height: 90vh;
+width: 46%;
+display: flex;
+align-items: center;
+flex-flow: column;
+justify-content: center;
+background-image: url("https://wallpapers.com/images/hd/man-with-apple-airpods-7xsz26xebsey9jwv.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.item3{margin: 1%;
+    padding: 1%;
+    height: 90vh;
+width: 46%;
+display: flex;
+align-items: center;
+flex-flow: column;
+justify-content: start;
+background-image: url("https://i.ytimg.com/vi/T-UhbAcZd3I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBW5DRDZ0YO0PSmjWuoGKaMtZmVXQ");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.item4{margin: 1%;
+    padding: 1%;
+    height: 90vh;
+width: 46%;
+display: flex;
+align-items: center;
+flex-flow: column;
+justify-content: start;
+background-image: url("https://www.apple.com/newsroom/images/2024/09/apple-watch-ultra-2-now-available-in-black-titanium/article/Apple-Watch-Ultra-2-Ocean-Band-240909_inline.jpg.large.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.item5{margin: 1%;
+    padding: 1%;
+    height: 90vh;
+width: 46%;
+display: flex;
+align-items: center;
+flex-flow: column;
+justify-content: end;
+background-image: url("https://images.macrumors.com/t/ZZXX-6V4B3kUrRM3KXsp9h_tc_Q=/1600x0/article-new/2024/05/apple-trade-in-2024.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.item6{margin: 1%;
+    padding: 1%;
+    height: 90vh;
+width: 46%;
+display: flex;
+align-items: center;
+flex-flow: column;
+justify-content: end;
+background-image: url("https://www.apple.com/newsroom/images/product/apple-card/standard/Apple-Card-available-today-Apple-Card-082019_inline.jpg.large.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+h2{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+}
+h3{
+    color:#000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+}
+h4{
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+p{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+
+.tovch5{display: flex;
+    align-items: center;
+flex-flow: column;
+justify-content: center;
+ margin-top:15px;
+    width: 15%;
+    height: 8%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color:#2856fd;
+   color:#2856fd;
+   display: flex;
+   
+}
+
+.tovch6{display: flex;
+    align-items: center;
+flex-flow: column;
+justify-content: center;
+ margin-top:15px;
+    width: 15%;
+    height: 8%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color:#ffffff;
+   color:hwb(0 100% 0%);
+   display: flex;
+   
+}
+
+.tovch7{display: flex;
+    align-items: center;
+flex-flow: column;
+justify-content: center;
+ margin-top:15px;
+    width: 15%;
+    height: 8%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color:#c5670f;
+   color:#c5670f;
+   display: flex;
+   
+}
+
+
+.tovch8{display: flex;
+    align-items: center;
+flex-flow: column;
+justify-content: center;
+ margin-top:15px;
+    width: 15%;
+    height: 8%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color:hsl(0, 0%, 0%);
+   color:hsl(0, 0%, 0%);
+   
+}
+
+
+.footer{
+    padding-top:0vh;
+    margin-top:0vh;
+    width: 100%;
+    height: auto;
+    background-color:rgb(221, 220, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    
+   
+}
+
+
+.main_bichver{ 
+    padding-top:2vh;
+    margin-top:2vh;
+    width: 65%;
+    font-size: 0.9rem;
+    color: rgb(98, 98, 98);
+}
+
+.hul_bichver{
+    padding-top:2vh;
+    margin-top:2vh;
+    width: 65%;
+    font-size: 0.9rem;
+    color: #626262;
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.hul_list{
+  
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h6{
+    font-size: 0.9rem;
+    color: #626262;
+    text-decoration: underline;
+}
+.huldo_bichver{
+    padding-top:2vh;
+    margin-top:2vh;
+    width: 65%;
+    font-size: 0.9rem;
+    color: rgb(98, 98, 98);
+
+}
+
+.hul_zuraas{
+    margin-top:2vh;
+    margin-bottom: 2vh;
+    height: 1px;
+    width: 65%;
+   background-color: #000000;
+   opacity: 0.8;
+}
+
+.huldo_bichver2{
+    padding-top:0.5vh;
+    margin-top:0.5vh;
+    width: 65%;
+    font-size: 0.9rem;
+    color: rgb(98, 98, 98);
+
+}
+@media screen and (max-width:1280px ){
+
+    h1{
+        font-size: 3rem;
+
+    }
+    h2{
+    
+        font-size: 1.5rem;
+    }
+    h3{
+    
+        font-size: 1.5rem;
+    }
+    h4{
+
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:900px ){
+    .nav{
+        background-color: #ffffff;
+        color: #000000;
+        opacity: 0.8;
+       float:left;
+        height: 85vh;
+        width: 10vh;
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+    }
+    .navitem{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .applelogo{
+        display: flex;
+        align-self: center;
+    }
+    .searchlogo{
+        display: flex;
+        align-self: center;
+    }
+    .storelogo{
+        display: flex;
+        align-self: center;
+    }
+  
+    .container1{
+        background-image: url("");
+    }
+    .container2{
+        background-image: url("");
+    }
+
+    .container1{
+        background-image: url("");
+    }
+    .container2{
+        background: rgb(34,94,219);;
+    }
+    .item1{
+        width: 100%;
+    }
+    .item2{
+        width: 100%;
+    }
+    .item3{
+        width: 100%;
+    }
+    .item4{
+        width: 100%;
+    }
+    .item5{
+        width: 100%;
+    }
+    .item6{
+        width: 100%;
+    }
+    .tovch1{
+        margin-top: -8%;
+    margin-left:45%;
+        width: 100px;
+        height: 55px;
+    }
+    .tovch2{margin-top: 6%;
+        margin-left:45%;
+        width: 100px;
+        height: 55px;
+    }
+    .tovch3{
+        margin-top: -6%;
+    margin-left:45%;
+        width: 100px;
+        height: 55px;
+    }
+    .tovch4{margin-top: 8%;
+        margin-left:45%;
+        width: 100px;
+        height: 55px;
+    }
+}
+
+
+@media screen and (max-width:750px ){
+    .hul_bichver{
+        font-size: 0.8rem;
+    }
+    .huldo_bichver{
+        font-size: 0.8rem;
+    }
+    .huldo_bichver2{
+        font-size: 0.8rem;
+    }
+    h6{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:680px ){
+
+
+.container1{
+    height: 45vh;
+}
+
+.nav{
+    height: 45vh;
+}
+
+
+.tovch1{
+    margin-top: 2%;
+    margin-left:39%;
+    position: absolute;
+    width: 55px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.tovch2{
+    margin-top: 2%;
+    margin-left:51%;
+    position: absolute;
+    width: 55px;
+    height: 35px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+
+}
+
+h5{
+    font-size: 0.6rem;
+}
+
+.container2{
+    height: 45vh;
+}
+.tovch3{
+    margin-top: 2%;
+    margin-left:39%;
+    position: absolute;
+    width: 55px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.tovch4{
+    margin-top: 2%;
+    margin-left:51%;
+    position: absolute;
+    width: 55px;
+    height: 35px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.hul_bichver{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+@media screen and (max-width:522px){
+    .nav{
+        height: 62vh;
+    }
+   .zurag1{margin-top: 0%;
+    width: 318.64px;
+    margin-left: 20%;
+   }
+.container1{
+    height: 30vh;
+}
+.zurag2{margin-top: 0%;
+    width: 318.64px;
+    margin-left: 20%;
+   }
+.container2{
+    height: 30vh;
+}
+   .tovch1{position: absolute;
+    top: 22%;
+    margin-left:62%;
+    width: 70px;
+    height: 25px;
+}
+.tovch2{position: absolute;
+    top: 22%;
+    margin-left:34%;
+    width: 70px;
+    height: 25px;
+}
+.tovch3{position: absolute;
+    top: 55%;
+    margin-left:62%;
+    width: 70px;
+    height: 25px;
+}
+.tovch4{position: absolute;
+    top: 55%;
+    margin-left:34%;
+    width: 70px;
+    height: 25px;
+}
+
+}
+
+@media screen and (max-width:373px){
+
+}
