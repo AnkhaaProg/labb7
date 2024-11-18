@@ -280,7 +280,7 @@ background-image: url("https://www.apple.com/newsroom/images/product/apple-card/
 background-repeat: no-repeat;
 background-size: cover;
 }
-h2{
+h1{
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4rem;
@@ -444,11 +444,8 @@ h6{
 }
 @media screen and (max-width:1280px ){
 
-    h1{
-        font-size: 3rem;
 
-    }
-    h2{
+    h1{
     
         font-size: 1.5rem;
     }
