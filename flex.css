@@ -411,7 +411,7 @@ justify-content: center;
     flex-direction: column;
 }
 
-h6{
+h5{
     font-size: 0.9rem;
     color: #626262;
     text-decoration: underline;
@@ -560,7 +560,7 @@ h6{
     .huldo_bichver2{
         font-size: 0.8rem;
     }
-    h6{
+    h5{
         font-size: 0.8rem;
     }
 }
@@ -605,7 +605,7 @@ h6{
 
 }
 
-h5{
+h2{
     font-size: 0.6rem;
 }
 
